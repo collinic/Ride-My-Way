@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Ride-My-Way | Sign up</title>
+</head>
+<body>
+        <div class="wrapper">
+        <header>
+            <div id="main-header1">
+                <a href="index.html">Ride-My-Way</a>
+            </div>
+            <div id="leftmenu" style="float: left">
+                <ul>
+                    <li><a href="passenger.html">Passenger</a></li>
+                    <li><a href="driver.html">Driver</a></li>
+                </ul>
+            </div>
+            <div id="rightmenu" style="float: right">
+                <ul>
+                    <li><a href="signin.html">Sign in</a></li>
+                </ul>
+            </div>
+        </header>
+    <section class="newride">
+        <div class="container">
+            <div>
+                <h1 style="float: left;">View Ride Request</h1>
+                <button type="button" id="createBtn" style="float: right">Add Ride Offer</button>
+            </div>
+        </div>
+        <div id="requestModal" class="modal">
+                <!-- Modal content -->
+                <div class="form-container card">
+                    <span class="close">x</span>
+                    <form>
+                        <h3 class="text-center">Add Ride Offer</h3>
+                        <div class="form-item">
+                            <label>Travelling From</label>
+                            <br>
+                            <input class="form-input" type="text" placeholder="Take off" required>
+                        </div>
+                        <div class="form-item">
+                            <label>Travelling To</label>
+                            <br>
+                            <input class="form-input" type="text" placeholder="Destination" required>
+                        </div>
+                        <div class="form-item">
+                            <label>Departure Date</label>
+                            <br>
+                            <input class="form-input" type="date" required>
+                        </div>
+                        <div class="form-item">
+                            <label>Departure Time</label>
+                            <br>
+                            <input class="form-input" type="time" required>
+                            </div>
+                        <button type="button" class="button1">Add Ride Offer</button>
+                    </form>
+                </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="table-holder">
+                <table style="width: 100%">
+                    <thead>
+                        <tr>
+                            <th>#Id</th>
+                            <th>Ride Request</th>
+                            <th>Departure Date</th>
+                            <th>Departure Time</th>
+                            <th>Reject</th>
+                            <th>Accept</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Ikoyi to Ikeja</td>
+                            <td>12/07/2018</td>
+                            <td>10:30AM</td>
+                            <td><button id="rejectbtn" type="button">Reject</button></td>
+                            <td><button id="acceptbtn" type="button">Accept</button></td>
+                        </tr> 
+                        <tr>
+                            <td>2</td>                            
+                            <td>Abia to Imo</td>
+                            <td>07/07/2018</td>
+                            <td>12:00PM</td>
+                            <td><button id="rejectbtn" type="button">Reject</button></td>
+                            <td><button id="acceptbtn" type="button">Accept</button></td>
+                        </tr> 
+                        <tr>
+                            <td>3</td>
+                            <td>Lokoja to Kano</td>
+                            <td>24/07/2018</td>
+                            <td>06:30AM</td>
+                            <td><button id="rejectbtn" type="button">Reject</button></td>
+                            <td><button id="acceptbtn" type="button">Accept</button></td>
+                        </tr> 
+                        <tr>
+                            <td>4</td>
+                            <td>Benin to Delta</td>
+                            <td>13/07/2018</td>
+                            <td>09:30AM</td>
+                            <td><button id="rejectbtn" type="button">Reject</button></td>
+                            <td><button id="acceptbtn" type="button">Accept</button></td>
+                        </tr> 
+                        <tr>
+                            <td>5</td>
+                            <td>Imo to Kano</td>
+                            <td>17/07/2018</td>
+                            <td>09:30AM</td>
+                            <td><button id="rejectbtn" type="button">Reject</button></td>
+                            <td><button id="acceptbtn" type="button">Accept</button></td>
+                        </tr> 
+                        <tr>
+                            <td>6</td>
+                            <td>Kwara to Lagos</td>
+                            <td>13/06/2018</td>
+                            <td>10:30AM</td>
+                            <td><button id="rejectbtn" type="button">Reject</button></td>
+                            <td><button id="acceptbtn" type="button">Accept</button></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Benin to Delta</td>
+                            <td>23/07/2018</td>
+                            <td>11:30AM</td>
+                            <td><button id="rejectbtn" type="button">Reject</button></td>
+                            <td><button id="acceptbtn" type="button">Accept</button></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Port Harcourt to Delta</td>
+                            <td>13/07/2018</td>
+                            <td>09:30AM</td>
+                            <td><button id="rejectbtn" type="button">Reject</button></td>
+                            <td><button id="acceptbtn" type="button">Accept</button></td>
+                        </tr>  
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy 2018 | Andela Bootcamp Challenge (Designed by Amaka Eze)</p>
+    </footer>
+
+    <script src="modal.js"></script>
+</body>
+</html>

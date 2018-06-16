@@ -1,0 +1,262 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+/*Gobal CSS */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+#main-header a{
+    float: left;
+    color: #ffffff;
+    padding: 15px 30px 15px 30px;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#main-header1 a{
+    float: left;
+    color: #ffffff;
+    padding: 15px 30px 15px 30px;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #35475E;
+}
+header ul li{
+    display: inline;
+}
+header ul li a{
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#leftmenu a{
+    font-size: 25px;
+}
+#rightmenu a{
+    font-size: 25px;
+}
+header{
+    height: 80px;
+    margin: 0px auto;
+    border-bottom: 2px solid #ffffff;
+}
+
+header ul li{
+    display: inline;
+    padding-top: 20px;
+}
+header ul li a{
+    color: #35475E;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Homepage CSS */
+.homepage{
+    background: #35475E;
+}
+
+.navbar ul li{
+    display: inline;
+    padding: 30px;
+    text-decoration: none;
+}
+.navbar a{
+    background:#35475E;
+    opacity: 0.7;
+    color: #ffffff;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*Landing Page CSS */
+.welcome{
+      font-size: 65px;
+      margin-top: 120px;
+      background: black;
+      opacity: 0.6;
+      width: 900px;
+      margin-left: 250px;
+}
+#showcase{
+    height: 100vh;
+    background:url('../image/background.jpg') no-repeat;
+    text-align:center;
+    color:#ffffff;
+    overflow: hidden;
+    background-size: cover;
+}
+/*Form CSS*/
+.form-container {
+    background-color: rgb(255, 255, 255);
+    max-width: 450px;
+    margin: 90px auto;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.form-item {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-input, .modalbtn .button1{
+    width: 100%;
+    margin-top: 12px;
+    padding: 8px;
+}
+.text-center {
+    text-align: center;
+}
+.text-center a{
+    text-decoration: none;
+}
+.newRide{
+    height: 100px;
+    overflow: hidden;
+}
+/*Avaliable Rides*/
+#boxes{
+    margin-top: 20px;
+    align-content: center;
+    height: 500px;
+}
+#boxes .box{
+    float: left;
+    width: 22.5%;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid grey;
+}
+#boxes .box img{
+    width: 200px;
+    height: 120px;
+}
+/*Join Rides CSS */
+.joinride{
+    padding:15px;
+    color:#ffffff;
+    background:#35424a;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+}
+.button2{
+    padding:15px;
+    color:#ffffff;
+    background:#35424a;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+}
+/*Request Ride*/
+.newride button{
+    background-color:#35475E;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 8px;
+    margin: 20px 20px 5px 0px;
+    cursor: pointer;
+}
+/* Previous and View all Rides CSS */
+.navbtn{
+    padding:15px;
+    color:#ffffff;
+    background:#35424a;
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 0px;
+}
+/* modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.modalaction{
+    background: #35475E;
+    color: #ffffff;
+    font-size: 17;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+}
+/* Close Button */
+.close {
+    color: rgb(36, 66, 165);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(20, 21, 95);
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Table CSS */
+table, th, td {
+    border: 2px solid #2d728f;
+    margin-bottom: 40px;
+}
+
+th, td {
+    text-align: center;
+    padding: 4px;
+}
+/* Rejection Button CSS */
+#rejectbtn{
+    background: rgb(243, 13, 13);
+    color: #ffffff;
+    padding: 10px 15px;
+    border: 0px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* Acceptance Button CSS */
+#acceptbtn{
+    background: rgb(9, 243, 114);
+    color: #ffffff;
+    padding: 10px 15px;
+    border: 0px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/*Footer CSS*/
+footer{
+    border-top: 2px solid #35475E;
+}
+footer p {
+    text-align: center;
+}
