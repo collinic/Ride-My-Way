@@ -1,0 +1,14 @@
+{
+  "name": "ridemyway",
+  "version": "1.0.0",
+  "description": "Andela pre bootcamp challenge - Ride My Way App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amaka Eze",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
